@@ -1,0 +1,45 @@
+.main-nav{
+    height:60px;
+    background: #1890FF;
+    align-items: center;
+    padding-left: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+    a{
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.5);
+    
+        &.active{
+            font-weight: bold;
+            color:#FFF;
+        }
+    
+        &:hover{
+            color:#FFF;
+        }
+
+        &:link{
+            text-decoration: none;
+        }
+    }
+
+
+}
+
+.row {
+    margin-top: -20px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.main-nav-title{
+    color:#FFF;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
